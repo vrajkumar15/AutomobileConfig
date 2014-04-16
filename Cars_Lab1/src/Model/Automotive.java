@@ -61,7 +61,7 @@ public class Automotive {
 	}
 	
 	public void setOptionsetName(int i, String name) {
-		System.out.println(AutoOption.length);
+		//System.out.println(AutoOption.length);
 		//System.out.println(i);
 		//System.out.println(name);
 		AutoOption[i].setCarConfig(name);
@@ -81,7 +81,7 @@ public class Automotive {
     	System.out.printf("Model name: %s\n", CarModel);
     	System.out.printf("Base proce: %d\n", BasePrice);
     	System.out.printf("Option Size: %d\n", OptionSetSize);
-    	System.out.println(AutoOption.length);
+    	//System.out.println(AutoOption.length);
     	for (int i=0; i < AutoOption.length; i++)
     	{
     		AutoOption[i].printOptionSet();
